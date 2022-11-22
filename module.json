@@ -2,7 +2,7 @@
   "name": "pf2e-tweaks",
   "title": "PF2e Tweaks",
   "description": "Minimalistic clock. XP macro. Copied from PF2E Tweaks by Ustin at https://gitlab.com/Ustin/pf2e-tweaks",
-  "version": "0.6.4",
+  "version": "1.0.0",
   "library": "false",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "9",
@@ -31,7 +31,6 @@
       "entity": "Macro"
     }
   ],
-  "url": "https://gitlab.com/Ustin/PF2e-tweaks",
-  "manifest": "https://gitlab.com/Ustin/PF2e-tweaks/-/raw/master/module.json",
-  "download": "https://gitlab.com/Ustin/PF2e-tweaks/-/archive/master/ec-maps-remake-master.zip"
+  "manifest": "https://raw.githubusercontent.com/Erebus-FoundryVTT-Modules/pf2e-tweaks/main/module.json",
+  "download": "https://github.com/Erebus-FoundryVTT-Modules/pf2e-tweaks/archive/refs/heads/main.zip"
 }
