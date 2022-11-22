@@ -1,0 +1,37 @@
+{
+  "name": "pf2e-tweaks",
+  "title": "PF2e Tweaks",
+  "description": "Minimalistic clock. XP macro. Copied from PF2E Tweaks by Ustin at https://gitlab.com/Ustin/pf2e-tweaks",
+  "version": "0.6.4",
+  "library": "false",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "9",
+  "type": "module",
+  "author": "Erebus",
+  "authors": [
+    {
+      "name": "Ustin",
+      "url": "https://gitlab.com/Ustin",
+      "discord": "Ustin@2388"
+    },
+    {
+      "name": "Erebus"
+    }
+  ],
+  "dependencies": [],
+  "conflicts": [],
+  "esmodules": ["./scripts/minimalistic-clock.js"],
+  "styles": ["./css/clock.css"],
+  "packs": [
+    {
+      "name": "pf2e-tweaks-by-ustin",
+      "label": "PF2e tweaks by Ustin - macros",
+      "path": "packs/pf2e-tweaks-by-ustin.db",
+      "module": "pf2e-tweaks",
+      "entity": "Macro"
+    }
+  ],
+  "url": "https://gitlab.com/Ustin/PF2e-tweaks",
+  "manifest": "https://gitlab.com/Ustin/PF2e-tweaks/-/raw/master/module.json",
+  "download": "https://gitlab.com/Ustin/PF2e-tweaks/-/archive/master/ec-maps-remake-master.zip"
+}

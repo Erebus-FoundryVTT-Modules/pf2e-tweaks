@@ -1,0 +1,24 @@
+.tweaks-min-clock {
+    text-align: center;
+    color: #f0f0e0;
+    margin-bottom: 6px;
+    margin-top: 0px;
+    background: transparent;
+    border: 0;
+}
+
+.tweaks-min-clock:focus {
+    box-shadow: none;
+}
+
+.tweaks-min-clock:hover {
+    box-shadow: none;
+}
+
+.tweaks-line {
+    width: 190px;
+    border: none;
+    height: 1px;
+    background-color: black;
+    box-shadow: 1px 1px 1px rgb(35,34,29);
+}
